@@ -3,7 +3,7 @@
 export default {
   'navbar.lang': 'English',
   'menu.home': '首页',
-  'menu.dashboard': 'Dashboard',
+  'menu.dashboard': '统计',
   'menu.dashboard.analysis': '分析页',
   'menu.dashboard.monitor': '监控页',
   'menu.dashboard.workplace': '工作台',
@@ -15,6 +15,7 @@ export default {
   'menu.form.stepform.result': '分步表单（完成）',
   'menu.form.advancedform': '高级表单',
   'menu.list': '列表页',
+  'menu.list.driverList': '司机列表',
   'menu.list.searchtable': '查询表格',
   'menu.list.basiclist': '标准列表',
   'menu.list.cardlist': '卡片列表',

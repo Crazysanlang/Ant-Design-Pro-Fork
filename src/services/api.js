@@ -124,3 +124,14 @@ export async function queryNotices() {
 export async function getFakeCaptcha(mobile) {
   return request(`/api/captcha?mobile=${mobile}`);
 }
+
+
+
+
+// 司机列表请求
+export async function driverList(params){
+  return request('/api/driverList',{
+    method:'POST',
+    body:params
+  })
+}

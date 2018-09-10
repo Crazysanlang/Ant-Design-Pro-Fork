@@ -93,6 +93,11 @@ export default [
         name: 'list',
         routes: [
           {
+            path: '/list/driver-list',
+            name: 'driverList',
+            component: './List/driverList',
+          },
+          {
             path: '/list/table-list',
             name: 'searchtable',
             component: './List/TableList',

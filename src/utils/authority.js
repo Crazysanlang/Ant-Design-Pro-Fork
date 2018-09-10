@@ -4,9 +4,9 @@ export function getAuthority() {
   let authority = localStorage.getItem('antd-pro-authority');
   if (authority) {
     if (authority.includes('[')) {
-      authority = JSON.parse(authority);
+      authority = authority;
     } else {
-      authority = [JSON.parse(authority)];
+      authority = authority;
     }
   } else {
     authority = ['admin'];
